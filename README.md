@@ -14,6 +14,16 @@ Perfect for small projects, websites, or any application that needs to display c
 
 ---
 
+## 📦 Installation
+
+**Using Composer:**
+
+```bash
+composer require mobbi-dev/minicountryflag
+```
+
+---
+
 ## 🔧 Usage
 
 ```php
@@ -21,6 +31,7 @@ Perfect for small projects, websites, or any application that needs to display c
 use MiniCountryFlag\MiniCountryFlag;
 
 $flag = new MiniCountryFlag('fi');
+
 echo $flag->getEmoji(); // 🇫🇮
 echo $flag->getName(); // Finland
 echo $flag->getFlagImageUrl(); // https://flagcdn.com/24x18/fi.png
