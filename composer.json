@@ -1,0 +1,29 @@
+{
+  "name": "mobbi-dev/minicountryflag",
+  "description": "Small PHP class to get country flags as emojis based on country codes (ISO 3166-1 alpha-2).",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MiniCountryFlag\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "authors": [
+    {
+      "name": "mobbi",
+      "email": "mobbi.dev@protonmail.com",
+      "homepage": "http://github.com/mobbi-dev/MiniCountryFlag"
+    }
+  ],
+  "keywords": [
+    "php",
+    "flag",
+    "country",
+    "countries",
+    "emoji",
+    "iso3166"
+  ]
+}
